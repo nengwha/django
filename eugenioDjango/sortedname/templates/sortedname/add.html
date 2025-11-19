@@ -1,0 +1,11 @@
+{% extends 'sortedname/layout.html' %}
+
+{% block body %}
+    <h1>Add Combined Name</h1>
+    <form action="{% url 'sortedname:add' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+    <button type="submit">Add Name</button>
+    </form>
+    <a href="{% url 'sortedname:index' %}">Back to Name List</a>
+{% endblock %}

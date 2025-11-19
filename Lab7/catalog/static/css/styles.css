@@ -1,0 +1,16 @@
+.sidebar-nav {
+    margin-top: 20px;
+    text-indent: 10px;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+#logout-form {
+  display: inline;
+}
+#logout-form button {
+  padding: 0;
+  margin: 0;
+}

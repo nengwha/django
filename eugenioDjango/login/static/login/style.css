@@ -1,0 +1,73 @@
+/* Example glassmorphism login style. Adjust as needed. */
+body {
+  background: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  background: rgba(255,255,255,0.2);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  border-radius: 30px;
+  padding: 40px 30px;
+  position: relative;
+  width: 350px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.5);
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #6c63ff;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.register-forget {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.opacity {
+  opacity: 0.8;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(108,99,255,0.2);
+}
+.circle-one {
+  width: 100px;
+  height: 100px;
+  top: -40px;
+  left: -40px;
+}
+.circle-two {
+  width: 80px;
+  height: 80px;
+  bottom: -30px;
+  right: -30px;
+}
+.illustration {
+  width: 120px;
+  margin-bottom: 20px;
+}

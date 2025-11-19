@@ -1,0 +1,16 @@
+{% extends 'sortedname/layout.html' %}
+{% block body %}
+    <h1>First Names</h1>
+    <ul>
+        {% for firstname in firstname %}
+            <li>{{ firstname }}</li>
+        {% endfor %}
+    </ul>
+    <h1>Last Names</h1>
+    <ul>
+        {% for lastname in lastname %}
+            <li>{{ lastname }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'sortedname:add' %}">Add New Name</a>
+{% endblock %}
